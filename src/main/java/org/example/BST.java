@@ -67,12 +67,11 @@ public class BST {
         node.right=sortedArrayToBST(nums,middle+1,end);
         return node;
     }
+
+
     public static void main(String[] args) {
 
 
-        BST tree=new BST(2);
-        tree.add(1);
-        tree.add(3);
 
        }
 }
